@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="APTS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="APTS.war">
+      <element id="artifact" artifact-name="APTS:war exploded" />
+    </root>
+  </artifact>
+</component>

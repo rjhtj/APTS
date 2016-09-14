@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/controller/AdminController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/controller/FileController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/dao/AdminDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/dao/FertilizerDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/service/AdminService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/service/FertilizerService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/APTS/web/util/CodecUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/property/persistence-mysql.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/file-list.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/front/showProPlan.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/generateQRcode.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/home.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/login.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/pages/welcome.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/images/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/skin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/target/APTS/pages/welcome.html" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

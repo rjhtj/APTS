@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GB2312">
+    <title>二维码生成</title>
+    <script src="../resources/js/qrcode.js"></script>
+    <script src="../resources/js/table.js"></script>
+</head>
+<body>
+
+<div>二维码的尺寸<input type="text" name="" id="size1"></div><br/>
+<div>二维码的间隙<input type="text" name="" id="qrpadding"></div><br/>
+<div>二维码行数 ：<input type="text" name="name1" id="row1"></div><br/>
+<div>二维码列数：<input type="text" name="name2" id="col1"></div><br/>
+<div><input type="text" id="ProID" name="ProID" placeholder="商品识别号"> <button id="send">点击更换验证码</button></div>
+
+<table id="tdContent">
+
+</table>
+
+
+
+<script>
+    document.getElementById("send").onclick =function(){
+        //生成表格
+        var qrcodetd = document.getElementById("tdContent");
+
+        var  rownum = parseInt(document.getElementById("row1").value);
+        var colnum = parseInt(document.getElementById("col1").value);
+
+        qrcodetd.innerHTML = Table1(rownum,colnum);
+        //定义表格样式
+        var qrpadding = parseInt(document.getElementById("qrpadding").value);
+        var Trs = qrcodetd.getElementsByTagName("tr");
+        var Cols = qrcodetd.getElementsByTagName("td");
+        for(var i = 0;i < Trs.length; i++)
+        {
+            Trs[i].style.padding = qrpadding + 'px';
+        }
+        for(var i = 0;i < Cols.length; i++)
+        {
+            Cols[i].style.padding = qrpadding + 'px';
+        }
+
+        //循环绘制二维码
+        var qrcodes = qrcodetd.getElementsByTagName("div");
+        var nlen = qrcodes.length;
+
+
+        var qrcodesize = parseInt(document.getElementById("size1").value);
+        var QRContent = document.getElementById("ProID").value;
+        for (var i = 0; i < nlen; i++)
+        {
+            qrcode = new QRCode((qrcodes[i]),
+                    {width : qrcodesize,
+                        height : qrcodesize});
+
+            qrcode.makeCode(QRContent);
+
+        }
+    }
+</script>
+</body>
+</html>
